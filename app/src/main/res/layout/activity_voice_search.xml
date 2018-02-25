@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3f3f3f"
+    tools:context="com.bot.chatbot.chatbot.VoiceSearch">
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_selector"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="70dp"
+        android:text="Find me"
+        android:id="@+id/find"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
